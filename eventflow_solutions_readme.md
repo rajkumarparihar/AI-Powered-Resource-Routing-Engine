@@ -1,9 +1,8 @@
-# 🌊 EventFlow Solutions
+# EventFlow Solutions
 
 **Predictive Line Management & Real-Time Queue Algorithms**  
 *Built for Hacklanta II 2026*
 
-![EventFlow Solutions](Thumbnail01.jpg)
 
 ## The Problem
 Major collegiate networking events and career fairs suffer from a primary bottleneck: physical lines. Recruiters are overwhelmed, and candidates spend hours standing in unstructured queues just to get a brief introduction. Time spent standing in line is time wasted *not* networking.
