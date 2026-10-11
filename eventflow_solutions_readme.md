@@ -25,7 +25,7 @@ To handle predictive line management, the FastAPI backend actively calculates wa
 
 $$ E[W] = \sum_{i=1}^{N} \mu_i $$
 
-Where $\mu_i$ represents the allocated time for the $i$-th candidate in the queue. In our system, this is strictly enforced by the pacing mechanism of the **30-Second Challenge**, effectively capping $\mu$ to prevent event-wide bottlenecks.
+Where $\mu_i$ represents the allocated time for the $i$-th candidate in the queue. In the system, this is strictly enforced by the pacing mechanism of the **30-Second Challenge**, effectively capping $\mu$ to prevent event-wide bottlenecks.
 
 ## Running the Project Locally
 
@@ -54,4 +54,4 @@ npm run dev
 ---
 
 ### Hackathon Notes
-During development, we encountered a severe Next.js/PostCSS compiler crash right before the deadline. To bypass the broken local build and ensure our UI matched our design, we injected the Tailwind CSS CDN directly into our Next.js `<head>` layout. This hackathon-style pivot allowed us to successfully demo our dark-mode aesthetic across the network!
+During development, we encountered a severe Next.js/PostCSS compiler crash right before the deadline. To bypass the broken local build and ensure our UI matched the design, I injected the Tailwind CSS CDN directly into our Next.js `<head>` layout. This hackathon-style pivot allowed us to successfully demo the dark-mode aesthetic across the network!
